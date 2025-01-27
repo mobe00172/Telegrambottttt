@@ -218,5 +218,5 @@ async def configure_bot():
     print(f"DEBUG: Webhook gesetzt auf: {webhook_url}")
 
 # Lokaler Start
-if __name__ == "__main__":
+if __name__ == "__bot__":
     app.run(debug=True, port=5000)
